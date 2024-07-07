@@ -1,0 +1,48 @@
+
+
+/* General Styles */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 20px;
+  font-family: "Sedan SC", serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+/* Parallax Sections */
+.pimg1,
+.pimg2,
+.pimg3 {
+  background-attachment: scroll; /* Change to scroll for better mobile compatibility */
+}
+
+/* Parallax Text */
+.ptext {
+  font-size: 27px;
+}
+
+/* Section Styles */
+.section {
+  padding: 50px 20px; /* Adjust padding for smaller screens */
+}
+
+.section img {
+  width: 100px; /* Adjust image size for smaller screens */
+}
+
+/* Media Queries for Mobile */
+@media only screen and (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  .ptext {
+    font-size: 20px;
+  }
+  .section {
+    padding: 30px 10px;
+  }
+  .section img {
+    width: 80px;
+  }
+}
